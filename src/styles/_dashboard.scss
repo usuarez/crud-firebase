@@ -1,0 +1,48 @@
+.dashboard {
+    padding-bottom: 120px;
+    min-height: 100vh;
+}
+.product {
+    background: linear-gradient(1deg, rgb(214, 214, 214) 0%, rgb(253, 253, 253) 100%);
+    padding: 12px 24px;
+    border: 1px solid rgba(73, 73, 73, .2);
+}
+.bold {font-weight: 700;}
+.product h5, h2 { margin: 0px; padding: 0px; }
+h2 {padding: 24px 0 12px;}
+.product button {
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: rgba(73, 73, 73, .5);
+}
+
+.product-list-container {
+    border-radius: 8px;
+    box-shadow: 1px 1px 13px 3px rgba(73, 73, 73, .3);
+    background-color: rgb(241, 241, 241);
+}
+
+
+input {
+    border-radius: 4px;
+    padding: 8px 0;
+    text-indent: 8px;
+    border: 1px solid rgba(73, 73, 73, .5);
+}
+
+.productsform {
+    margin: 16px 0;
+    padding: 16px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-edit {background-color: rgba(73, 127, 214, .3) !important; margin-right: 8px;}
+.btn-delete {background-color: rgba(214, 73, 73, .3) !important;}
+.btn-logout {
+    color: #fff;
+    background-color: rgb(38, 65, 189) !important;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
